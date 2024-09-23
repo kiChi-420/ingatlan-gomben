@@ -49,6 +49,8 @@
         </div>
     </div>
 </nav>
+<h1>Felhasználói beállítások</h1>
+<p>Ezen az oldalon tud a felhasználó olyan adatokat változantni amik az ő fiókjára vonatkoznak</p>
     <section>
         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_ttRb7_2jlpN1FJ8fIgDbjcHZVhhrwDxhaQ&s" alt="user-pfp">
         <h1>Felhasználó neve</h1>

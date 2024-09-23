@@ -49,6 +49,8 @@
         </div>
     </div>
 </nav>
+<h1>Kérjük, jelentkezzen be!</h1>
+<p>Ezen az oldalon tudnak bejelentkezni a felhasználók</p>
     <section>
         <h1>Felhasználói név:</h1>
         <input type="text">
