@@ -18,6 +18,9 @@
     <body class="antialiased">
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        {{ $navbar }}
+    </nav>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid">
         <a class="navbar-brand" href="/">Otthon</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -60,7 +63,7 @@
     </div>
 </nav>
 
-<h1>Üdvözöljük, *felhasználó</h1>
+<h1>Üdvözöljük, {{ $name }}</h1>
 <p>Ezzel az oldallal fognak legelősször találkozni a felhasználóink</p>
         <!-- <div class="relative sm:flex sm:justify-center sm:items-center min-h-screen bg-dots-darker bg-center bg-gray-100 dark:bg-dots-lighter dark:bg-gray-900 selection:bg-red-500 selection:text-white">
             @if (Route::has('login'))
