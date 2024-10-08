@@ -17,7 +17,10 @@
     </head>
     <body class="antialiased">
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <?php
+        readfile("navbar.html")
+    ?>
+    <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
         {{ $navbar }}
     </nav>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -53,7 +56,7 @@
                 </li>
                 <li class="nav-item">
                 <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                </li> -->
+                </li>
             </ul>
             <form class="d-flex">
                 <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
@@ -61,7 +64,7 @@
             </form>
         </div>
     </div>
-</nav>
+</nav> -->
 
 <h1>Üdvözöljük, {{ $name }}</h1>
 <p>Ezzel az oldallal fognak legelősször találkozni a felhasználóink</p>
