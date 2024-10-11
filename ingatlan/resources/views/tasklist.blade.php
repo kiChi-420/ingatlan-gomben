@@ -6,6 +6,9 @@
     <title>Document</title>
 </head>
 <body>
+@section('navbar')
+@include('navbar')
+@show
     <ul>
         @foreach($tasks as $task)
             <li>{{ $task }}</li>

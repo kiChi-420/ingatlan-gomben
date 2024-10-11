@@ -12,9 +12,9 @@
     <title>Bejelentkezés</title>
 </head>
 <body>
-<?php
-    readfile("navbar.html")
-?>
+@section('navbar')
+@include('navbar')
+@show
 <h1>Kérjük, jelentkezzen be!</h1>
 <p>Ezen az oldalon tudnak bejelentkezni a felhasználók</p>
     <section>

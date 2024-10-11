@@ -6,6 +6,9 @@
     <title>Document</title>
 </head>
 <body>
+@section('navbar')
+@include('navbar')
+@show
     <!-- http://127.0.0.1:8000/request-test?title=<script>alert("Boom!");</script>
     Nem szabad ezt a kettő $title kiírást használni, mivel így egy támadó könnyen lefuttathat JS kódot
     <?= $title; ?>

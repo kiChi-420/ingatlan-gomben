@@ -16,10 +16,12 @@
         </style>
     </head>
     <body class="antialiased">
+    
+    @section('navbar')
+    @include('navbar')
+    @show
 
-    <?php
-        readfile("navbar.html")
-    ?>
+
     <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
         {{ $navbar }}
     </nav>
